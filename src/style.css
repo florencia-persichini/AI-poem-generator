@@ -1,0 +1,47 @@
+body {
+  background-color: #e2d210;
+  font-family: "Inter", serif;
+  margin: 0;
+}
+
+.header-container {
+  display: flexbox;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ink-stain {
+  width: 200px;
+  position: relative;
+  top: -115px;
+  left: 15px;
+}
+
+h1 {
+  font-family: "Cardo", serif;
+  font-weight: 800;
+  text-align: center;
+  width: 500px;
+  background-color: #e1e4ed;
+  padding: 20px 60px;
+  position: relative;
+  top: 125px;
+}
+
+p {
+  background-color: #e1e4ed;
+  padding: 20px 40px;
+  width: 335px;
+  line-height: 1.5;
+  margin-left: 400px;
+  position: relative;
+  top: -125px;
+}
+
+strong {
+  font-style: italic;
+}
+
+.poem-text {
+  font-family: "Cardo", serif;
+}
