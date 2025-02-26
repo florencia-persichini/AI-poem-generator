@@ -6,14 +6,12 @@ body {
   min-height: 100vh;
 }
 
-.header-container {
-  display: flexbox;
-  flex-direction: column;
-  height: 400px;
+header {
+  height: 420px;
 }
 
-.ink-stain {
-  width: 200px;
+img {
+  width: 300px;
   position: relative;
   top: -115px;
   left: 15px;
@@ -22,15 +20,12 @@ body {
 h1 {
   font-family: "Cardo", serif;
   font-weight: 800;
-  text-align: center;
+  text-align: right;
   width: 500px;
   background-color: #e1e4ed;
-  padding: 20px 60px;
-}
-
-.header-title {
+  padding: 20px 40px 20px 150px;
   position: relative;
-  top: 125px;
+  top: 170px;
 }
 
 p {
@@ -39,11 +34,8 @@ p {
   width: 335px;
   line-height: 1.5;
   margin-left: 400px;
-}
-
-.header-text {
   position: relative;
-  top: -125px;
+  top: -205px;
 }
 
 strong {
