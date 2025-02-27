@@ -77,10 +77,11 @@ input {
 
 .poem-text {
   font-family: "Cardo", serif;
-  text-align: center;
+  text-align: left;
   line-height: 1.5;
   width: 300px;
   margin: 60px auto;
+  padding: 40px;
   font-size: 22px;
   border-left: 3px solid black;
 }

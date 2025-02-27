@@ -9,31 +9,29 @@
       href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator 🖋️</title>
   </head>
   <body>
     <header>
-        <h1>Your word. Our verse.</h1>
-        <img src="images/ink stain.png" alt="ink stain image" class="header-logo" />
-        <p>
-          No need to be a poet—our AI does it for you. <br />
-          Just give it a word and watch the magic happen. <strong>Unleash the poet within!</strong>
-        </p>
+      <h1>Your word. Our verse.</h1>
+      <img src="images/ink stain.png" alt="ink stain image" class="header-logo" />
+      <p>
+        No need to be a poet—our AI does it for you. <br />
+        Just give it a word and watch the magic happen. <strong>Unleash the poet within!</strong>
+      </p>
     </header>
 
     <main>
       <div class="form-container">
-        <form>
+        <form id="form-text-input">
           <input class="form-text-input" type="text" id="" placeholder="Enter a word..." autocomplete="off" required />
           <input class="form-button" type="submit" value="Verse it!" />
         </form>
       </div>
-      <div class="poem-text">
-        The poem will go here
-        <br />
-        Another line goes here
+      <div id="poem-text" class="poem-text"></div>
     </main>
     <footer>
       This project was coded by
