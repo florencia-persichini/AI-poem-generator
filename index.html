@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator 🖋️</title>
   </head>
@@ -27,7 +27,7 @@
     <main>
       <div class="form-container">
         <form id="form-text-input">
-          <input class="form-text-input" type="text" id="" placeholder="Enter a word..." autocomplete="off" required />
+          <input id="user-input" class="form-text-input" type="text" id="" placeholder="Enter a word..." autocomplete="off" required />
           <input class="form-button" type="submit" value="Verse it!" />
         </form>
       </div>

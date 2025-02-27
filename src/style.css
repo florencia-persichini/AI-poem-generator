@@ -33,7 +33,7 @@ p {
   background-color: #e1e4ed;
   padding: 20px 40px;
   width: 335px;
-  line-height: 1.5;
+  line-height: 2;
   margin: 20px 0 0 362px;
   position: relative;
   top: -205px;
@@ -47,19 +47,19 @@ strong {
   display: flex;
   justify-content: center;
   width: 650px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 input {
   font-size: 16px;
-  padding: 10px 40px;
   font-family: "Inter", serif;
 }
 
 .form-text-input {
-  width: 350px;
+  width: 400px;
   background-color: #e1e4ed;
   border: 1px solid #e1e4ed;
+  padding: 10px 40px 10px 20px;
 }
 
 .form-button {
@@ -68,6 +68,7 @@ input {
   color: #e1e4ed;
   font-weight: 600;
   margin-left: 8px;
+  padding: 10px 40px;
 }
 
 .form-button:hover {
@@ -78,11 +79,12 @@ input {
 .poem-text {
   font-family: "Cardo", serif;
   text-align: left;
-  line-height: 1.5;
-  width: 300px;
+  line-height: 2;
+  width: 420px;
   margin: 60px auto;
-  padding: 40px;
-  font-size: 22px;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 550;
   border-left: 3px solid black;
 }
 
