@@ -5,6 +5,7 @@ function displayPoem(response) {
     strings: response.data.answer,
     autoStart: true,
     delay: 30,
+    cursor: "",
   });
 }
 
@@ -18,6 +19,10 @@ function generatePoem(event) {
   let prompt = `Generate an english poem with the word ${userInput.value}`;
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let poemElement = document.querySelector("#poem-text");
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class="loader"></div>`;
 
   console.log("Generating poem");
 
