@@ -6,6 +6,16 @@ body {
   min-height: 100vh;
 }
 
+.halftone-bd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
 header {
   height: 420px;
 }
@@ -24,7 +34,7 @@ h1 {
   text-align: right;
   width: 500px;
   background-color: #e1e4ed;
-  padding: 20px 40px 20px 190px;
+  padding: 20px 40px 20px 300px;
   position: relative;
   top: 170px;
 }
@@ -32,9 +42,9 @@ h1 {
 p {
   background-color: #e1e4ed;
   padding: 20px 40px;
-  width: 335px;
+  width: 560px;
   line-height: 2;
-  margin: 20px 0 0 362px;
+  margin: 30px auto;
   position: relative;
   top: -205px;
 }
@@ -47,7 +57,7 @@ strong {
   display: flex;
   justify-content: center;
   width: 650px;
-  margin: 60px auto;
+  margin: 30px auto;
 }
 
 input {
@@ -77,6 +87,7 @@ input {
 }
 
 .poem-text {
+  background-color: #e1e4ed;
   font-family: "Cardo", serif;
   text-align: left;
   line-height: 2;
@@ -95,6 +106,8 @@ a {
 }
 
 footer {
+  background-color: black;
+  color: #e1e4ed;
   font-size: 13px;
   text-align: center;
   width: 100%;
