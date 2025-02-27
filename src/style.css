@@ -20,11 +20,11 @@ header {
   height: 420px;
 }
 
-img {
+.header-logo {
   width: 300px;
   position: relative;
-  top: -115px;
-  left: 15px;
+  top: -120px;
+  left: 35px;
 }
 
 h1 {
