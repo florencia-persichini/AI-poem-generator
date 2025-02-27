@@ -54,8 +54,9 @@ strong {
 }
 
 .form-container {
-  display: flex;
+  display: flexbox;
   justify-content: center;
+
   width: 500px;
   margin: 10px auto;
 }
@@ -84,6 +85,13 @@ input {
 .form-button:hover {
   border: 1px solid #ec1d23;
   background-color: rgb(31, 30, 30);
+}
+
+.hint {
+  position: relative;
+  top: 6px;
+  left: 6px;
+  font-size: 12px;
 }
 
 .poem-container {
